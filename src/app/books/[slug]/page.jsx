@@ -80,8 +80,7 @@ const BookDetails = ({ params }) => {
                   <p>{book.about}</p>
                 </div>
               )}
-              const rentFormUrl = "https://forms.gle/ggG8DTvhngVLNT8G6"; const
-              buyFormUrl = "https://forms.gle/SRgTRrm8hkhjECR16";
+            
               {/* Buy / Rent buttons based on availability */}
               <div className="book-action-buttons">
                 {book.availability.buyable && (

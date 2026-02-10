@@ -3,6 +3,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 const BlogCard = ({ blog, isAdmin = false }) => {
   const [showMore, setShowMore] = useState(false);
@@ -22,9 +23,11 @@ const BlogCard = ({ blog, isAdmin = false }) => {
       {/* Header */}
       <div className="blog-header mb--15">
         {blog.featureImg && (
-          <img
+          <Image
             src={blog.featureImg}
             alt={blog.title}
+            width = {640}
+            height = {360}
             className="w-100 rounded-lg mb--10"
             style={{ objectFit: "cover", maxHeight: "250px" }}
           />

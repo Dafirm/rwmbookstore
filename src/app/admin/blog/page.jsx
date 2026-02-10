@@ -15,8 +15,9 @@ const AdminBlogsPage = () => {
   useEffect(() => {
     const isAdmin = localStorage.getItem("isAdminLoggedIn");
     if (isAdmin !== "true") {
-      router.push("/");
-      return;
+      router.push("/")
+      [router];
+     
     }
 
     const storedBlogs = JSON.parse(localStorage.getItem("BlogsAPI")) || [];

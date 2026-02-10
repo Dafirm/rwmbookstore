@@ -6,6 +6,9 @@ import Breadcrumb from "@/components/breadcrumb/Breadcrumb";
 import Section from "@/components/elements/Section";
 
 const BorrowingTerms = () => {
+  // Use a fixed string for the last updated date to avoid hydration mismatch
+  const lastUpdated = "11/02/2026";
+
   return (
     <>
       <Header />
@@ -20,14 +23,14 @@ const BorrowingTerms = () => {
           <div className="container">
             <div className="terms-content mx-auto" style={{ maxWidth: 900 }}>
               <p className="mb-4 text-muted">
-                Last updated: <strong>{new Date().toLocaleDateString()}</strong>
+                Last updated: <strong>{lastUpdated}</strong>
               </p>
 
               <p>
-                By borrowing a book from{" "}
-                <strong>RWM (Read With Me)</strong>, you agree to the
-                following terms and conditions. These guidelines help us ensure
-                fairness, accountability, and respect for shared resources.
+                By borrowing a book from <strong>RWM (Read With Me)</strong>,
+                you agree to the following terms and conditions. These
+                guidelines help us ensure fairness, accountability, and respect
+                for shared resources.
               </p>
 
               <h4>1. Eligibility to Borrow</h4>
@@ -96,7 +99,7 @@ const BorrowingTerms = () => {
               <p>
                 For questions or support, please contact us at:
                 <br />
-                <strong>info@rwm.com</strong>
+                <strong>christiantalkseries@gmail.com</strong>
               </p>
 
               <p className="mt-5 font-italic">

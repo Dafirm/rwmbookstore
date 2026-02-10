@@ -14,6 +14,7 @@ export const metadata = {
     "RWM is your hub for books, insights, and personal growth content.",
   keywords: ["reading", "faith", "books", "insights", "spiritual growth"],
   authors: [{ name: "RWM Editorial Team" }],
+  metadataBase: new URL("https://rwmbooks.com"), // for social image URLs
   openGraph: {
     title: "RWM | Faith & Reading Insights",
     description: "Explore curated content and book insights from RWM.",
@@ -21,7 +22,7 @@ export const metadata = {
     siteName: "RWM",
     images: [
       {
-        url: "/rwm-og-image.png",
+        url: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?fit=crop&w=1200&h=630",
         width: 1200,
         height: 630,
         alt: "RWM Reading Insights",
@@ -33,10 +34,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "RWM | Faith & Reading Insights",
     description: "Explore curated content and book insights from RWM.",
-    images: ["/rwm-og-image.png"],
+    images: [
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?fit=crop&w=1200&h=630",
+    ],
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "https://rwmbooks.com/favicon.ico",
   },
 };
 
