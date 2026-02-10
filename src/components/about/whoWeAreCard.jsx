@@ -9,8 +9,8 @@ const WhoWeAreCard = ({ data, image }) => {
           <Image
             src={image}
             alt={data.title}
-            width={160}
-            height={140}
+            width={120}
+            height={120}
             priority={false}
           />
         </div>

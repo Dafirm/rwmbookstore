@@ -11,7 +11,7 @@ import Breadcrumb from "@/components/breadcrumb/Breadcrumb";
 import Section from "@/components/elements/Section";
 import SectionTitle from "@/components/elements/SectionTitle";
 import Service from "@/components/services/Service";
-import WhoWeAreCard from "@/components/about/WhoWeAreCard";
+import WhoWeAreCard from "@/components/about/whoWeAreCard";
 
 import {
   AboutStore,
