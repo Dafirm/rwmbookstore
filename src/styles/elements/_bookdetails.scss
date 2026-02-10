@@ -1,0 +1,105 @@
+/*-------------------------
+    Book details
+--------------------------*/
+.book-details-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .book-covers {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        .book-cover-card {
+            flex: 1;
+            min-width: 140px;
+            max-width: 300px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+            .book-cover-img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .book-info {
+        flex: 1;
+
+        .book-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .book-author {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 8px;
+        }
+
+        .book-category {
+            font-size: 0.95rem;
+            color: #888;
+            margin-bottom: 16px;
+        }
+
+        .book-about {
+            margin-bottom: 24px;
+
+            h4 {
+                font-size: 1.2rem;
+                font-weight: 600;
+                margin-bottom: 8px;
+            }
+
+            p {
+                font-size: 1rem;
+                line-height: 1.6;
+                color: #444;
+            }
+        }
+
+        .book-action-buttons {
+            display: flex;
+            gap: 20px;
+
+            .axil-btn {
+                padding: 12px 24px;
+                font-weight: 600;
+                border-radius: 8px;
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+                transition: all 0.3s ease;
+
+                &:hover {
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+                }
+            }
+
+            .btn-bg-primary {
+                background-color: #f6b500;
+                color: #fff;
+            }
+
+            .btn-bg-secondary {
+                background-color: #00aaff;
+                color: #fff;
+            }
+        }
+    }
+}
+
+// Responsive
+@media (max-width: 991px) {
+    .book-details-row {
+        flex-direction: column;
+
+        .book-covers {
+            justify-content: center;
+        }
+    }
+}

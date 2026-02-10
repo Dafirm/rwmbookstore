@@ -1,0 +1,86 @@
+/* ===============================
+   RWM Book Slider Card
+================================ */
+
+.rwm-book-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 16px 35px rgba(0, 0, 0, 0.12);
+    }
+
+    /* Image frame */
+    .rwm-book-image-wrapper {
+        position: relative;
+        width: 100%;
+        height: 260px;
+        border-radius: 12px;
+        overflow: hidden;
+        background: #f5f5f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 14px;
+
+        img {
+            width: auto !important;
+            height: 100% !important;
+            object-fit: contain;
+        }
+    }
+
+    /* Content */
+    .product-content {
+        text-align: center;
+
+        .product-title {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 4px;
+
+            a {
+                color: #111;
+                text-decoration: none;
+
+                &:hover {
+                    color: var(--color-primary);
+                }
+            }
+        }
+
+        .author-name {
+            display: block;
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 10px;
+        }
+    }
+
+    /* Actions */
+    .rwm-book-actions {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        .rwm-btn-outline {
+            border: 1px solid #ddd;
+            padding: 6px 14px;
+            font-size: 13px;
+            border-radius: 20px;
+            background: transparent;
+            cursor: pointer;
+            transition: all 0.25s ease;
+
+            &:hover {
+                background: #111;
+                color: #fff;
+                border-color: #111;
+            }
+        }
+    }
+}
