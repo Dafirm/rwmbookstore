@@ -39,7 +39,7 @@ export const metadata = {
     ],
   },
   icons: {
-    icon: "https://rwmbooks.com/favicon.ico",
+    icon: "/public/favicon.ico",
   },
 };
 
