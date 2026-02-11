@@ -94,7 +94,7 @@ const BookDetails = ({ params }) => {
                 )}
                 {book.availability.rentable && (
                   <a
-                    href=""
+                    href="https://forms.gle/ggG8DTvhngVLNT8G6"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="axil-btn btn-bg-secondary"

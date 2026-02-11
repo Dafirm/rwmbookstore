@@ -3,7 +3,7 @@ const FooterData = {
     {
       label: "Account",
       linkList: [
-        { name: "My Account", url: "/dashboard" },
+        { name: "Kids Books", url: "/kids" },
         { name: "Borrowing Terms", url: "/terms/borrowing" }, // Replaced Login
         { name: "Request a Book", url: "https://forms.gle/ggG8DTvhngVLNT8G6" },
       ],
@@ -26,7 +26,7 @@ const FooterData = {
   ],
   footerInfo: {
     address: "Espoo, Finland",
-    email: "info@rwm.com",
+    email: "christiantalkseries@gmail.com",
   },
   socialLinks: {
     instagram:
