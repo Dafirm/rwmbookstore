@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { mobileMenu } from "@/store/slices/menuSlice";
 import BookSearchModal from "./BookSearchModal";
-import Link from "next/link";
+
 
 const HeaderActions = () => {
   const [searchOpen, setSearchOpen] = useState(false);
@@ -20,11 +20,11 @@ const HeaderActions = () => {
         </li>
 
         {/* Profile / Sign In */}
-        <li>
+        {/* <li>
           <Link href="/sign-in" title="Sign In">
             <i className="far fa-user" />
           </Link>
-        </li>
+        </li> */}
 
         {/* Mobile Menu Toggle */}
         <li className="axil-mobile-toggle">
