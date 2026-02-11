@@ -10,7 +10,6 @@ import { ReadingInsights } from "@/data/ReadingInsights";
 const BlogPage = () => {
   const [feedbacks, setFeedbacks] = useState([]);
 
-
   useEffect(() => {
     const stored = JSON.parse(localStorage.getItem("bookFeedback")) || [];
     // Show most recent first

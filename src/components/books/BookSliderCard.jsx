@@ -1,5 +1,3 @@
-
-
 import Link from "next/link";
 import Image from "next/image";
 
@@ -11,7 +9,7 @@ const BookSliderCard = ({ book }) => {
   // Open Rent form with prefilled book title
   const handleRent = () => {
     const url = `${rentFormUrl}?entry.8720823235195030808=${encodeURIComponent(
-      book.title
+      book.title,
     )}`;
     window.open(url, "_blank");
   };
@@ -19,7 +17,7 @@ const BookSliderCard = ({ book }) => {
   // Open Buy form with prefilled book title
   const handleBuy = () => {
     const url = `${buyFormUrl}?entry.-6937497636707183151=${encodeURIComponent(
-      book.title
+      book.title,
     )}`;
     window.open(url, "_blank");
   };

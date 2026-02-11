@@ -1,5 +1,3 @@
-
-
 import { BooksAPI } from "@/data/Books";
 import CategoryBooks from "@/components/category/CategoryBooks";
 import Section from "@/components/elements/Section";
@@ -19,7 +17,6 @@ import Service from "@/components/services/Service";
 
 const Home = () => {
   const books = BooksAPI.books.filter((book) => book?.images?.front);
-  
 
   return (
     <>

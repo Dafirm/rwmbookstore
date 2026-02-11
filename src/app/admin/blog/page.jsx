@@ -1,4 +1,3 @@
-
 // "use client";
 
 // import { useEffect, useState } from "react";
@@ -17,7 +16,7 @@
 //     if (isAdmin !== "true") {
 //       router.push("/")
 //       [router];
-     
+
 //     }
 
 //     const storedBlogs = JSON.parse(localStorage.getItem("BlogsAPI")) || [];

@@ -1,7 +1,3 @@
-// {
-//   "extends": "next/core-web-vitals"
-// }
-
 {
   "root": true,
   "env": {
@@ -11,8 +7,8 @@
   },
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:@next/next/recommended"
+    "plugin:@next/next/recommended",
+    "plugin:prettier/recommended"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -22,6 +18,19 @@
     "sourceType": "module"
   },
   "rules": {
-    // add your custom rules here if needed
+    "react/react-in-jsx-scope": "off", // Not needed in Next.js 13+
+    "react/prop-types": "off",         // Disable prop-types validation
+    "no-mixed-spaces-and-tabs": "warn",
+    "no-unused-vars": "warn",
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": true,
+        "semi": true,
+        "tabWidth": 2,
+        "trailingComma": "es5",
+        "endOfLine": "auto"
+      }
+    ]
   }
 }

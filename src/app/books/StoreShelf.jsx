@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import { useState, useMemo, useEffect } from "react";
@@ -8,7 +6,6 @@ import { BooksAPI } from "@/data/Books";
 import { slugify } from "@/utils";
 import BookSliderCard2 from "@/components/books/BookSliderCard2";
 import { useSearchParams } from "next/navigation";
-
 
 const StoreShelf = () => {
   const books = useMemo(() => {
@@ -32,8 +29,8 @@ const StoreShelf = () => {
     } else {
       setFilteredBooks(
         books.filter(
-          (book) => slugify(book.category) === slugify(categoryParam)
-        )
+          (book) => slugify(book.category) === slugify(categoryParam),
+        ),
       );
     }
   }, [categoryParam, books]);
@@ -45,7 +42,7 @@ const StoreShelf = () => {
       setFilteredBooks(books);
     } else {
       setFilteredBooks(
-        books.filter((book) => slugify(book.category) === value)
+        books.filter((book) => slugify(book.category) === value),
       );
     }
   };

@@ -1,5 +1,3 @@
-
-
 // "use client";
 
 // import Image from "next/image";
@@ -22,7 +20,6 @@
 
 //       const [filteredBooks, setFilteredBooks] = useState(books);
 //       const [bookShow, setBookShow] = useState(12);
-
 
 //      const categoryHandler = (e) => {
 //        const value = e.target.value;

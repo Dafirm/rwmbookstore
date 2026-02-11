@@ -27,7 +27,7 @@
 //             <div className="col-lg-6 col-md-4">
 //               {/* <div className="inner">
 //                 <div className="bradcrumb-thumb">
-//                     <Image 
+//                     <Image
 //                     src="/images/logo/explorebks.png"
 //                     width={200}
 //                     height={200}
@@ -55,7 +55,7 @@
 //       </div>
 //     );
 // }
- 
+
 // export default Breadcrumb;
 "use client";
 import Image from "next/image";

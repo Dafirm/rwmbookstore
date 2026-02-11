@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const BookListItem = ({ product }) => {
   const book = product;
-  if (!book || !book.slug) return null; 
+  if (!book || !book.slug) return null;
 
   const frontImage = book?.images?.front || "/images/placeholder-book.jpg";
 

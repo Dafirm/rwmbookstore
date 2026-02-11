@@ -1,11 +1,8 @@
-
 // "use client";
 // import Link from "next/link";
 // import { useDispatch, useSelector } from "react-redux";
 // import { mobileMenu } from "@/store/slices/menuSlice";
 // import { HeaderMenu } from "@/data/Menu";
-
-
 
 // const Nav = () => {
 //   const dispatch = useDispatch();

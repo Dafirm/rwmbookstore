@@ -12,8 +12,6 @@
     "@emailjs/browser": "^3.11.0",
     "@reduxjs/toolkit": "^1.9.5",
     "bootstrap": "^5.3.3",
-    "eslint": "^10.0.0",
-    "eslint-config-next": "13.4.3",
     "fs": "^0.0.1-security",
     "fslightbox-react": "^1.7.4",
     "glob": "^13.0.2",
@@ -36,5 +34,12 @@
     "sharp": "^0.32.4",
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.7.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^13.4.3",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.8.1"
   }
 }

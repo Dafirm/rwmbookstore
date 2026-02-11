@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import { useState } from "react";
@@ -26,8 +24,8 @@ const BlogCard = ({ blog, isAdmin = false }) => {
           <Image
             src={blog.featureImg}
             alt={blog.title}
-            width = {640}
-            height = {360}
+            width={640}
+            height={360}
             className="w-100 rounded-lg mb--10"
             style={{ objectFit: "cover", maxHeight: "250px" }}
           />

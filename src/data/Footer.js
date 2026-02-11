@@ -1,7 +1,3 @@
-
-
-
-
 const FooterData = {
   footerLink: [
     {

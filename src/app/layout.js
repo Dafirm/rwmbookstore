@@ -1,8 +1,6 @@
-
-
 // src/app/layout.js
-import { Providers } from '@/store/provider';
-import "slick-carousel/slick/slick.css"; 
+import { Providers } from "@/store/provider";
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "@/styles/style.scss";
 import { ToastContainer } from "react-toastify";

@@ -1,6 +1,3 @@
-
-
-
 "use client";
 
 import Image from "next/image";
@@ -121,7 +118,6 @@ const AboutUs = () => {
             pClass="section-title-center"
           />
 
-         
           <div className="container who-we-are-container">
             <div className="row g-3 mt--40">
               {WhoWeAreData.map((item, idx) => (

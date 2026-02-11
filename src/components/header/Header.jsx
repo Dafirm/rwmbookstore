@@ -55,7 +55,6 @@
 
 // export default Header;
 
-
 "use client";
 
 import { useEffect, useRef, useState } from "react";

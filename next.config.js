@@ -5,11 +5,8 @@ const nextConfig = {
     return config;
   },
   images: {
-    domains: [
-      "images.unsplash.com",
-    "cdn.pixabay.com",
-  "c.pxhere.com"]
-  }
+    domains: ["images.unsplash.com", "cdn.pixabay.com", "c.pxhere.com"],
+  },
 };
 
 module.exports = nextConfig;

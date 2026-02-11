@@ -1,6 +1,3 @@
-
-
-
 "use client";
 import Link from "next/link";
 import Image from "next/image";
@@ -17,10 +14,7 @@ const BookCard = ({ book }) => {
             height={300}
             className="rounded-md transition-transform duration-300 hover:scale-105"
           />
-          
-          
         </Link>
-        
       </div>
 
       <div className="product-content">

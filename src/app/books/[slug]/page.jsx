@@ -1,4 +1,3 @@
-
 "use client";
 
 import Image from "next/image";
@@ -11,8 +10,8 @@ const BookDetails = ({ params }) => {
   const books = Array.isArray(BooksAPI)
     ? BooksAPI
     : Array.isArray(BooksAPI?.books)
-    ? BooksAPI.books
-    : [];
+      ? BooksAPI.books
+      : [];
 
   const book = books.find((b) => b.slug === params.slug);
 
@@ -80,7 +79,7 @@ const BookDetails = ({ params }) => {
                   <p>{book.about}</p>
                 </div>
               )}
-            
+
               {/* Buy / Rent buttons based on availability */}
               <div className="book-action-buttons">
                 {book.availability.buyable && (

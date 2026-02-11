@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import Link from "next/link";
@@ -35,7 +33,7 @@ const Banner = () => {
 
     return books.filter(
       (book) =>
-        book?.category && slugify(book.category) === slugify(pageCategory)
+        book?.category && slugify(book.category) === slugify(pageCategory),
     );
   }, [books, pageCategory]);
 
@@ -95,14 +93,10 @@ const Banner = () => {
                       images: {
                         front: book.images?.front || "/books/default.jpg", // ✅ fallback
                       },
-                      
                     }}
-                    
                   />
-                 
                 ))}
               </SlickSlider>
-              
             </div>
           </div>
         </div>

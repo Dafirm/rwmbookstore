@@ -56,7 +56,6 @@ const AboutAchievement = [
 ];
 
 const AboutFeatures = [
- 
   {
     subtitle: "Our Mission",
     title: "Reading With Meaning",
