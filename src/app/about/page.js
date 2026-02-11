@@ -103,8 +103,11 @@ const AboutUs = () => {
         {/* Single CTA */}
         <Section>
           <div className="text-center">
-            <Link href="/contact" className="axil-btn btn-bg-primary">
-              Get In Touch
+            <Link
+              href="https://forms.gle/T5hDoVuFsJeTNFsQ7"
+              className="axil-btn btn-bg-primary"
+            >
+              Join Community
             </Link>
           </div>
         </Section>
